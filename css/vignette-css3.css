@@ -1,0 +1,16 @@
+/*
+	VIGNETTE
+	Author:			Tim Severien
+	Description:	Creates a vignette on your screen
+	
+	Comments:		This is the CSS3 version. See the CSS2 folder for the CSS2 version
+*/
+
+/* PAGE 100% FIX */
+html, body { height: 100%; width: 100% }
+
+.vignette {
+	background-position: top left, top right, bottom left, bottom right;
+	background-repeat: no-repeat;
+	height: 100%; left: 0; position: fixed; top: 0; width: 100%; z-index: -1000;
+}
